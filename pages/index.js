@@ -25,7 +25,7 @@ const Home = (props) => {
           .home-image {
             width: 432px;
             height: 481px;
-            margin-top: 226px;
+            margin-top: 126px;
             object-fit: cover;
           }
           @media (max-width: 479px) {
