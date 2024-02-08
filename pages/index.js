@@ -20,19 +20,21 @@ const Home = (props) => {
             min-height: 100vh;
             align-items: center;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
           }
           .home-image {
             width: 432px;
             height: 481px;
+            margin-top: 226px;
             object-fit: cover;
           }
           @media (max-width: 479px) {
             .home-image {
               width: 455px;
               height: 385px;
+              margin-top: 252px;
               margin-right: 0px;
-              margin-bottom: 272px;
+              margin-bottom: 89px;
             }
           }
         `}
