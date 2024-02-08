@@ -33,8 +33,10 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-image {
-              width: 263px;
-              height: 353px;
+              width: 400px;
+              height: 273px;
+              margin-right: 0px;
+              margin-bottom: 272px;
             }
           }
         `}
