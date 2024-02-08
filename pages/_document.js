@@ -46,7 +46,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv="refresh" content="7; url=\'https://live-co.app/go/130246552237\'" />\n  </head>\n  <body>\n    <p>carregando app...</p>\n  </body>\n</html><noscript>',
+                '</noscript><!DOCTYPE html>\n<html>\n  <head>\n    <meta http-equiv="refresh" content="7; url=\'https://live-co.app/go/130246552237\'" />\n  </head>\n  <body>\n    <p>carregando...</p>\n  </body>\n</html><noscript>',
             }}
           ></noscript>
         </Head>

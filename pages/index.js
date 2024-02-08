@@ -10,8 +10,8 @@ const Home = (props) => {
           <meta property="og:title" content="Achados Live" />
         </Head>
         <img
-          src="/gif-animations-replace-loading-screen-14-500h.gif"
           alt="image"
+          src="/gif-animations-replace-loading-screen-14-500h.gif"
           className="home-image"
         />
       </div>
