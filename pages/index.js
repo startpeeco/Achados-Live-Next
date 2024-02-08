@@ -32,7 +32,7 @@ const Home = (props) => {
             .home-image {
               width: 455px;
               height: 385px;
-              margin-top: 252px;
+              margin-top: 164px;
               margin-right: 0px;
               margin-bottom: 89px;
             }
