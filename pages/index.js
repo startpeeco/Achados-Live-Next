@@ -9,11 +9,7 @@ const Home = (props) => {
           <title>Achados Live</title>
           <meta property="og:title" content="Achados Live" />
         </Head>
-        <img
-          alt="image"
-          src="/gif-animations-replace-loading-screen-14-500h.gif"
-          className="home-image"
-        />
+        <img alt="image" src="/giphy-500h.gif" className="home-image" />
       </div>
       <style jsx>
         {`
@@ -33,8 +29,8 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-image {
-              width: 400px;
-              height: 273px;
+              width: 455px;
+              height: 385px;
               margin-right: 0px;
               margin-bottom: 272px;
             }
