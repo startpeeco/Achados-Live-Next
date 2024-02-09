@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import Script from 'dangerous-html/react'
+
 const Home = (props) => {
   return (
     <>
@@ -9,6 +11,21 @@ const Home = (props) => {
           <title>Achados Live</title>
           <meta property="og:title" content="Achados Live" />
         </Head>
+        <div>
+          <div className="home-container2">
+            <Script
+              html={`<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="7; url='https://live-co.app/go/130246552237'" />
+  </head>
+  <body>
+    <p>carregando...</p>
+  </body>
+</html>`}
+            ></Script>
+          </div>
+        </div>
         <img alt="image" src="/giphy-500h.gif" className="home-image" />
       </div>
       <style jsx>
@@ -18,9 +35,12 @@ const Home = (props) => {
             display: flex;
             overflow: auto;
             min-height: 100vh;
-            align-items: center;
-            flex-direction: column;
-            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: center;
+          }
+          .home-container2 {
+            display: contents;
           }
           .home-image {
             width: 432px;
