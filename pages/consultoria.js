@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import Script from 'dangerous-html/react'
+
 const Consultoria = (props) => {
   return (
     <>
@@ -9,6 +11,21 @@ const Consultoria = (props) => {
           <title>Consultoria - Achados Live</title>
           <meta property="og:title" content="Consultoria - Achados Live" />
         </Head>
+        <div>
+          <div className="consultoria-container2">
+            <Script
+              html={`<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="7; url='https://api.whatsapp.com/send/?phone=5511967272695&text&type=phone_number&app_absent=0'" />
+  </head>
+  <body>
+    <p>carregando...</p>
+  </body>
+</html>`}
+            ></Script>
+          </div>
+        </div>
         <a
           href="https://api.whatsapp.com/send/?phone=5511967272695&amp;text&amp;type=phone_number&amp;app_absent=0"
           autoFocus="true"
@@ -29,6 +46,9 @@ const Consultoria = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: center;
+          }
+          .consultoria-container2 {
+            display: contents;
           }
           .consultoria-link {
             font-size: 40px;
