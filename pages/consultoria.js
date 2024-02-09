@@ -11,7 +11,7 @@ const Consultoria = (props) => {
           <title>Consultoria - Achados Live</title>
           <meta property="og:title" content="Consultoria - Achados Live" />
         </Head>
-        <div>
+        <div className="consultoria-container1">
           <div className="consultoria-container2">
             <Script
               html={`<!DOCTYPE html>
@@ -55,6 +55,11 @@ const Consultoria = (props) => {
             border-width: 4px;
             text-decoration: none;
             background-color: rgb(65, 239, 106);
+          }
+          @media (max-width: 991px) {
+            .consultoria-container1 {
+              display: none;
+            }
           }
           @media (max-width: 767px) {
             .consultoria-link {
