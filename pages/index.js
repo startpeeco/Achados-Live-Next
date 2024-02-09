@@ -47,6 +47,8 @@ const Home = (props) => {
             height: 481px;
             margin-top: 126px;
             object-fit: cover;
+            margin-left: var(--dl-space-space-threeunits);
+            margin-right: var(--dl-space-space-threeunits);
           }
           @media (max-width: 479px) {
             .home-image {
