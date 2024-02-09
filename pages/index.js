@@ -20,7 +20,7 @@ const Home = (props) => {
     <meta http-equiv="refresh" content="7; url='https://live-co.app/go/130246552237'" />
   </head>
   <body>
-    <p>carregando...</p>
+    <p></p>
   </body>
 </html>`}
             ></Script>
