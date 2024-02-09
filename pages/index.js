@@ -53,8 +53,8 @@ const Home = (props) => {
               width: 455px;
               height: 385px;
               margin-top: 164px;
-              margin-left: var(--dl-space-space-oneandhalfunits);
-              margin-right: var(--dl-space-space-oneandhalfunits);
+              margin-left: var(--dl-space-space-threeunits);
+              margin-right: var(--dl-space-space-threeunits);
               margin-bottom: 89px;
             }
           }
