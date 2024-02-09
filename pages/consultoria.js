@@ -30,6 +30,7 @@ const Consultoria = (props) => {
           }
           .consultoria-button {
             font-size: 40px;
+            background-color: rgb(65, 239, 106);
           }
           @media (max-width: 767px) {
             .consultoria-button {
