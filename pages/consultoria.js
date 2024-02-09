@@ -27,8 +27,6 @@ const Consultoria = (props) => {
             overflow: auto;
             min-height: 100vh;
             align-items: center;
-            border-color: var(--dl-color-gray-black);
-            border-width: 4px;
             flex-direction: column;
             justify-content: center;
           }
