@@ -9,13 +9,15 @@ const Consultoria = (props) => {
           <title>Consultoria - Achados Live</title>
           <meta property="og:title" content="Consultoria - Achados Live" />
         </Head>
-        <button
-          type="button"
+        <a
+          href="https://api.whatsapp.com/send/?phone=5511967272695&amp;text&amp;type=phone_number&amp;app_absent=0"
           autoFocus="true"
-          className="consultoria-button button"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="consultoria-link button"
         >
           Iniciar conversa
-        </button>
+        </a>
       </div>
       <style jsx>
         {`
@@ -30,18 +32,19 @@ const Consultoria = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .consultoria-button {
+          .consultoria-link {
             font-size: 40px;
             border-width: 4px;
+            text-decoration: none;
             background-color: rgb(65, 239, 106);
           }
           @media (max-width: 767px) {
-            .consultoria-button {
+            .consultoria-link {
               font-size: 40px;
             }
           }
           @media (max-width: 479px) {
-            .consultoria-button {
+            .consultoria-link {
               font-size: 40px;
               border-width: 4px;
               border-radius: var(--dl-radius-radius-radius8);
