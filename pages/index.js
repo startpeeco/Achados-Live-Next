@@ -17,7 +17,7 @@ const Home = (props) => {
               html={`<!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="7; url='https://live-co.app/go/130246552237'" />
+    <meta http-equiv="refresh" content="7; url='https://live-co.app/go/214244282129'" />
   </head>
   <body>
     <p></p>
